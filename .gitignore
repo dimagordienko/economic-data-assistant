@@ -1,0 +1,7 @@
+__pycache__/
+.vscode/
+dumps/
+venv/
+.env
+streamlit_app.py
+.DS_Store

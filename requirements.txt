@@ -1,0 +1,8 @@
+openai
+pydantic
+pandas
+duckdb
+sentence-transformers
+pyarrow
+python-dotenv
+streamlit
