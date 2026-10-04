@@ -11,5 +11,5 @@ YANDEX_CLOUD_API_KEY = os.getenv("YANDEX_CLOUD_API_KEY", "")
 YANDEX_CLOUD_MODEL = os.getenv("YANDEX_CLOUD_MODEL", "qwen3.6-35b-a3b/latest")
 
 PARQUET_DIR = BASE_DIR / "dumps" / "fedstatru" / "fedstatru" / "data" / "parquet"
-CSV_PATH = BASE_DIR / "knowledge_base_fedstatru_real.csv"
-DB_PATH = BASE_DIR / "my_db.duckdb"
+CSV_PATH = BASE_DIR / "data" / "knowledge_base_fedstatru_real.csv"
+DB_PATH = BASE_DIR / "data" / "my_db.duckdb"

@@ -2,7 +2,7 @@ import re
 from create_json import requet_to_json_pydantic
 from search_top_k import search
 from ask_llm_for_data import is_requared_data
-from final_llm_annswer import get_final_llm_answer
+from final_llm_answer import get_final_llm_answer
 from find_data_with_code import get_data_with_code
 from checking_full_json import check_full_request
 from config import PARQUET_DIR

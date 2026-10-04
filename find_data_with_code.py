@@ -1,5 +1,5 @@
 import pandas as pd
-from connect_to_code_interpretator import get_certain_data_from_file
+from connect_to_code_interpreter import get_certain_data_from_file
 import time
 from config import PARQUET_DIR
 
